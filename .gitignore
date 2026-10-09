@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Personal exports and extracted data (never commit these)
+private-data/
+instagram-export*/
+InstagramArchiveBackup/
+ArchiveFlow-output/
+*.zip
+session_settings.json
+download_state.json
+download_errors.txt
+.env
+.env.*
